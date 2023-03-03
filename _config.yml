@@ -1,0 +1,3 @@
+remote_theme: pages-themes/merlot
+plugins:
+  - jekyll-remote-theme

@@ -1,5 +1,3 @@
-<h1 class="project-name"> Leonardo Souza Dev Back End </h1>
-
 # Sobre mim
 
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro Fatecan, assim que terminar a primeira graduação),

@@ -1,8 +1,6 @@
-<h1 class="project-name"> Leonardo Souza Dev Back End </h1>
-
 # Sobre mim
 
-Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro Fatecan, assim que terminar a primeira graduação),
+Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
 dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor BackEnd!
 
 Nessa curta jornada percebi que gosto muito de resolver problemas por mais que me estresse de vez em quando com eles.
@@ -19,7 +17,7 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 
 - Uma calculadora, usando HTML, JS e CSS
 - Um teclado virtual
-- Um gerador de números da Lotofácil (Gosto de loteria e ainda mais da lotofácil, pra fugir do simples da Mega-Sena,
+- Um gerador de números da Lotofácil (gosto de loteria e ainda mais da lotofácil, pra fugir do simples da Mega-Sena,
   decidi fazer a Lotofácil)
 - Uma página inicial com login
 

@@ -14,11 +14,11 @@ Nessa curta jornada percebi que gosto muito de resolver problemas por mais que m
 # Projetos
 
 Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou construíndo:
-_ Uma calculadora, usando HTML, JS e CSS
-_ Um teclado virtual
-_ Um gerador de números da Lotofácil (Gosto de loteria e ainda mais da lotofácil, pra fugir do simples da Mega-Sena,
+* Uma calculadora, usando HTML, JS e CSS
+* Um teclado virtual
+* Um gerador de números da Lotofácil (Gosto de loteria e ainda mais da lotofácil, pra fugir do simples da Mega-Sena,
 decidi fazer a Lotofácil)
-_ Uma página inicial com login
+* Uma página inicial com login
 
 <div>
 <center>

@@ -23,8 +23,7 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 
 <div>
 <center>
-
-[![Logotipo do gato do github](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com/leonardosf98)
+ <a href="https://github.com/leonardosf98"> <img width="500cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
 
 </div>
 
@@ -34,6 +33,6 @@ Utilizo bastante da plataforma da Alura e da DIO. No momento estou cursando o bo
 
 <div>
 <center>
+<a href="https://github.com/leonardosf98"> <img width="500cm" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs"> </a>
 
-[![Logotipo Alura](https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs)](https://cursos.alura.com.br/user/leonardo-f98)
 </div>

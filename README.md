@@ -1,3 +1,5 @@
+<h1 class="project-name"> Leonardo Souza Dev Back End </h1>
+
 # Sobre mim
 
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro Fatecan, assim que terminar a primeira graduação),
@@ -22,7 +24,7 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 - Uma página inicial com login
 
 <center>
- <a href="https://github.com/leonardosf98"> <img width="500cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
+ <a href="https://github.com/leonardosf98"> <img width="400cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
 </center>
 
 # Cursos
@@ -30,5 +32,5 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 Utilizo bastante da plataforma da Alura e da DIO. No momento estou cursando o bootcamp Java com 114 horas mas para além disso, alguns cursos que completei estão disponíveis nesse link!
 
 <center>
-<a href="https://github.com/leonardosf98"> <img width="500cm" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs"> </a>
+<a href="https://github.com/leonardosf98"> <img width="400cm" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs"> </a>
 </center>

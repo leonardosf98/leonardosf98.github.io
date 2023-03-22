@@ -1,7 +1,3 @@
-
-
-# Sobre mim
-
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
 dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor BackEnd!
 

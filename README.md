@@ -1,4 +1,4 @@
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
 dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor BackEnd!
@@ -21,13 +21,15 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
   decidi fazer a Lotofácil)
 - Uma página inicial com login
 
+Alguns dos que eu mais gostei estão listados abaixo
+
 <div id="carouselExample" class="carousel slide">
      <div class="carousel-inner">
           <div class="carousel-item active">
                <a href="calculadora-xpe/calculadora.html"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
           </div>
           <div class="carousel-item">
-               <a href="teclado-virtual/index.html">  <img src="github.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
+               <a href="teclado-virtual/index.html">  <img src="calculadora.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
           </div>
           </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -39,6 +41,9 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
           <span class="visually-hidden">Next</span>
         </button>
 </div>
+
+Caso tenha gostado e queira dar uma olhada nos códigos! Só entrar no meu GitHub. Aproveita e segue lá!
+
 <center>
  <a href="https://github.com/leonardosf98" target="_blank"> <img width="400cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
 </center>

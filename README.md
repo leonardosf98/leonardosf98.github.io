@@ -1,3 +1,5 @@
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
 dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor BackEnd!
 
@@ -19,8 +21,27 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
   decidi fazer a Lotofácil)
 - Uma página inicial com login
 
+<div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <a href="calculadora-xpe/calculadora.html"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
+          </div>
+          <div class="carousel-item">
+         <a href="teclado-virtual/index.html">  <img src="github.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div>
+</div>
 <center>
- <a href="https://github.com/leonardosf98"> <img width="400cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
+ <a href="https://github.com/leonardosf98" target="_blank"> <img width="400cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>
 </center>
 
 # Cursos
@@ -28,10 +49,12 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 Utilizo bastante da plataforma da Alura e da DIO. No momento estou cursando o bootcamp Java com 114 horas mas para além disso, alguns cursos que completei estão disponíveis nesse link!
 
 <center>
-<a href="https://cursos.alura.com.br/user/leonardo-f98"> <img width="200cm" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs"> </a> 
+<a href="https://cursos.alura.com.br/user/leonardo-f98" target="_blank"> <img width="200cm" src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs"> </a> 
 <br>
 <br>
 <br>
-<a href="https://web.dio.me/users/leonardo-f98?tab=skills"> <img align="center" width="250cm" src="https://hermes.digitalinnovation.one/companies/a169bb67-5f72-4289-9778-fcea58dfa19a.png"> </a>
+<a href="https://web.dio.me/users/leonardo-f98?tab=skills" target="_blank"> <img align="center" width="250cm" src="https://hermes.digitalinnovation.one/companies/a169bb67-5f72-4289-9778-fcea58dfa19a.png"> </a>
 
 </center>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

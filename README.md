@@ -22,14 +22,14 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 - Uma página inicial com login
 
 <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+     <div class="carousel-inner">
           <div class="carousel-item active">
-           <a href="calculadora-xpe/calculadora.html"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
+               <a href="calculadora-xpe/calculadora.html"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
           </div>
           <div class="carousel-item">
-         <a href="teclado-virtual/index.html">  <img src="github.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
+               <a href="teclado-virtual/index.html">  <img src="github.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
           </div>
-        </div>
+          </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -38,7 +38,6 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-</div>
 </div>
 <center>
  <a href="https://github.com/leonardosf98" target="_blank"> <img width="400cm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"> </a>

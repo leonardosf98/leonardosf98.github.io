@@ -27,10 +27,10 @@ Alguns dos que eu mais gostei estão listados abaixo
 <div id="carouselExample" class="carousel slide">
      <div class="carousel-inner">
           <div class="carousel-item active">
-               <a href="calculadora-xpe/calculadora.html"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
+               <a href="https://calculadora-leonardosf98.netlify.app/"> <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a>
           </div>
           <div class="carousel-item">
-               <a href="teclado-virtual/index.html">  <img src="calculadora.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
+               <a href="https://calculadora-leonardosf98.netlify.app/" target="blank">  <img src="calculadora.png" class="d-block w-100" alt="Imagem da página do teclado virtual"></a> 
           </div>
           </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

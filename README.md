@@ -2,7 +2,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
-dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor BackEnd!
+dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor Júnior!
 
 Nessa curta jornada percebi que gosto muito de resolver problemas por mais que me estresse de vez em quando com eles.
 

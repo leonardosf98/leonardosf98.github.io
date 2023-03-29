@@ -27,7 +27,7 @@ Alguns dos que eu mais gostei estão listados abaixo
 <div id="carouselExample" class="carousel slide">
      <div class="carousel-inner">
           <div class="carousel-item active">
-               <img src="embreve.png" class="d-block w-100" alt="Em breve escrito em letras garrafais"></a>
+               <img src="embreve.png" class="d-block w-100" alt="Em breve escrito em letras garrafais">
           </div>
           <div class="carousel-item">
                <a href="https://calculadora-leonardosf98.netlify.app/" target="blank">  <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a> 

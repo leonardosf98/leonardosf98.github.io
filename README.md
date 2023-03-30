@@ -30,7 +30,7 @@ Alguns dos que eu mais gostei estão listados abaixo
                <a href="https://calculadora-leonardosf98.netlify.app/" target="blank">  <img src="calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a> 
           </div>
           <div class="carousel-item">
-                <a href="https://gerador-lotofacil.netlify.app/" target="blank"><img src="lotofacil.png" class="d-block w-100" alt="Screenshot da página do gerador de lotofacil">
+                <a href="https://gerador-lotofacil.netlify.app/" target="blank"><img src="lotofacil.png" class="d-block w-100" alt="Screenshot da página do gerador de lotofacil"></a> 
           </div>
           </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

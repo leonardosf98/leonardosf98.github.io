@@ -4,7 +4,7 @@
 Me chamo Leonardo e sou graduando da Unifesp em nutrição (e futuro fatecano, assim que terminar a primeira graduação),
 dentre muitos motivos estou tentando minha primeira vaga não na nutrição, mas como Desenvolvedor Júnior!
 
-Nessa curta jornada percebi que gosto muito de resolver problemas por mais que me estresse de vez em quando com eles.
+Nessa curta jornada percebi que gosto muito de resolver problemas por mais que me estresse de vez em quando com eles (caso duvide disso, tô deixando meu perfil do beecrowd <a href="https://www.beecrowd.com.br/judge/pt/profile/815800">aqui<a>).
 
 <div>
 <center>

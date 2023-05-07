@@ -27,15 +27,14 @@ Alguns dos que eu mais gostei estão listados abaixo
 
 <div id="carouselExample" class="carousel slide">
      <div class="carousel-inner">
+        <div class="carousel-item">
+                <a href="https://intro-webdev-brown.vercel.app/" target="blank"><img src="assets/menu-cafe.png" class="d-block w-100" alt="Screenshot da página do menu do café"></a> 
+          </div>
           <div class="carousel-item active">
                <a href="https://calculadora-leonardosf98.netlify.app/" target="blank">  <img src="assets/calculadora.png" class="d-block w-100" alt="Imagem da página da calculadora"></a> 
           </div>
           <div class="carousel-item">
                 <a href="https://gerador-lotofacil.netlify.app/" target="blank"><img src="assets/lotofacil.png" class="d-block w-100" alt="Screenshot da página do gerador de lotofacil"></a> 
-          </div>
-          <div class="carousel-item">
-                <a href="https://intro-webdev-brown.vercel.app/" target="blank"><img src="assets/menu-cafe.png" class="d-block w-100" alt="Screenshot da página do menu do café"></a> 
-          </div>
           </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

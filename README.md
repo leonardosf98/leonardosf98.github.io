@@ -45,6 +45,7 @@ Alguns dos que eu mais gostei estão listados abaixo
           <span class="visually-hidden">Next</span>
         </button>
 </div>
+</div>
 
 Caso tenha gostado e queira dar uma olhada nos códigos! Só entrar no meu GitHub. Aproveita e segue lá!
 

@@ -36,6 +36,9 @@ Alguns dos que eu mais gostei estão listados abaixo
           <div class="carousel-item">
                 <a href="https://gerador-lotofacil.netlify.app/" target="blank"><img src="assets/lotofacil.png" class="d-block w-100" alt="Screenshot da página do gerador de lotofacil"></a> 
           </div>
+          <div class="carousel-item">
+                <a href="https://gerador-de-senhas-two-umber.vercel.app/" target="blank"><img src="assets/gerador-de-senha.png" class="d-block w-100" alt="Screenshot da página do gerador de senhas"></a> 
+          </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>

@@ -18,8 +18,7 @@ Boa parte dos projetos que estou trabalhando estão no GitHub! Atualmente estou 
 
 - Uma calculadora, usando HTML, JS e CSS
 - Um gerador de senhas
-- Um gerador de números da Lotofácil (gosto de loteria e ainda mais da lotofácil, pra fugir do simples da Mega-Sena,
-  decidi fazer a Lotofácil)
+- O Wordle, que talvez seja o meu melhor projeto até agora!
 - Uma página inicial de pedidos para cafeteria
 - Um teclado virtual
 
@@ -29,6 +28,7 @@ Alguns dos que eu mais gostei estão listados abaixo
      <div class="carousel-inner">
         <div class="carousel-item active">
                 <a href="https://wordle-leonardosf.vercel.app/" target="blank"><img src="assets/wordle.png" class="d-block w-100" alt="Screenshot da página do wordle"></a> 
+        <div>
         <div class="carousel-item">
                 <a href="https://intro-webdev-brown.vercel.app/" target="blank"><img src="assets/menu-cafe.png" class="d-block w-100" alt="Screenshot da página do menu do café"></a> 
           </div>

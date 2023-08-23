@@ -5,3 +5,35 @@
 .carousel-control-next {
     color: black;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.introduction{
+    background-color: #012030;
+    padding: 100px 0;
+}
+.second-part{
+    background-color: #DAFDBA;
+}
+
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    box-sizing: border-box;
+}
+

@@ -7,45 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="introduction">
     <header class="header">
-        <h1 class="title">Leonardo Dev Júnior</h1>
+        <h1 class="title"><a href="index.html"><i class="fa-solid fa-laptop-code"></i>    Leonardo Dev Júnior</a></h1>
         <nav>
             <ul class="nav-links">
                 <li class="nav-link"><a class="link" href="index.html">Home</a></li>
                 <li class="nav-link"><a class="link" href="projects.html">Projetos</a></li>
-                <li class="nav-link"><a class="link" href="#">Contato</a></li>
+                <li class="nav-link"><a class="link" href="#contact">Contato</a></li>
+                <li><a href="https://github.com/leonardosf98" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-sf98/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2 class="presentation">Oi, eu sou o Léo!</h2>
-        <p class="main-content">Sou <strong>desenvolvedor web</strong> e nutricionista!</p>
+        <section class="presentation-container">
+        <h2 class="presentation">Oi, eu sou o <span class="name">Léo!</span></h2>
+        <p class="main-content">Sou <span class="profession">desenvolvedor web</span class="profession"> e nutricionista!</p>
         <p class="second-content">Me chamo Leonardo e sou desenvolvedor, atualmente estudo na FATEC e sou nutricionista pela Universidade Federal de São Paulo. Atualmente estou aperfeiçoando meu Javascript e pulando para meu primeiro framework, o React. Para além disso, estudo C# e Typescript, além das matérias da faculdade.</p>
-        <div class="buttons">
-        <button class="project-button">Projetos</button> 
-        <a href="https://www.github.com/leonardosf98" target="_blank"><img class="icon" src="assets/github.png" alt="ícone do github"></a>
-        <a href="https://www.linkedin.com/in/leonardosf98/" target="_blank"><img class="icon" src="assets/linkedin.png" alt="ícone do linkedin"></a>
-        </div>
-        <div class="box-container">
-            <section class="box">
-            <h2 class="box-title">Desenvolvimento Web</h2>
-            <p class="box-content">Estudo React, Javascript e Typescript, e tenho alguns projetos nessa área disponíveis na aba projetos.</p>
-        </section>
-        <section class="box">
-            <h2 class="box-title">Visão multiprofissional</h2>
-            <p class="box-content">Habilidade em trabalhar e juntar idéias com pessoas da equipe, experiência ganha nos estágios em nutrição e no trabalho como nutricionista</p>
-        </section>
-        <section class="box">
-            <h2 class="box-title">Leonardo Dev Júnior</h2>
-            <p class="box-content">Leonardo Dev Júnior é um desenvolvedor web full stack, que trabalha com as tecnologias mais atuais do mercado.</p>
-        </section>
-        <section class="box">
-            <h2 class="box-title">Leonardo Dev Júnior</h2>
-            <p class="box-content">Leonardo Dev Júnior é um desenvolvedor web full stack, que trabalha com as tecnologias mais atuais do mercado.</p>
-        </section>
-    </div>
-    </div>
+        <button class="project-button"><a href="projects.html">Projetos</a></button>
+    </section>
+    <section class="projects">
+            <h2 class="projects-title">
+                Alguns dos meus melhores projetos...
+            </h2>
+    </section> 
+    <section class="contact" id="contact">
+        <h2 class="contact-title">
+            Entre em contato comigo!
+        </h2>
+        <p class="contact-paragraph">
+            I'm always interested in hearing about new teaching opportunities, writing curricula, or instructional design work.
+        </p>
+        <input class="name-input" type="name" placeholder="Digite seu nome">
+        <input class="email-input" type="email" placeholder="Digite seu e-mail">
+        <input class="subject-input" type="subject" placeholder="Digite o assunto">
+        <textarea class="message-input" name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button class="send-button">Enviar</button>
+    </section>
     </main>
 </body>
+<script src="https://kit.fontawesome.com/b49864b53b.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </html>

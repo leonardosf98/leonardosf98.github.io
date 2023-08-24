@@ -1,38 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
- --background-color: #002333;
- --text-color:#B4BEC9;
- --third-color:#DEEFE7;
- --fourth-color:#159A9C;
- --fifth-color:#ffffff;
+ --background-color: #010326;
+ --text-color:#A7C6D9;
+ --third-color:#F2F2F2;
+ --fourth-color:#5B83A6;
+ --fifth-color:#00010D;
+}
+html{
+    height: 100vh;
+    width: 100vw;
 }
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
+    width: 100%;
     background-color: var(--text-color);
 }
 .title{
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+    color: var(--background-color);
     margin: 10px;
     padding: 0;
+    cursor: pointer;
+}
+.title a:hover{
+    color: var(--third-color);
+}
+.title a{
+    text-decoration: none;
+    color: #0d115d;
 }
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-left: 50px;
-    margin-right: 100px;
+    margin-right: 100px;    
+    margin-bottom: 0;
 }
 main{
     margin: 0;
     padding: 0;
+    padding-top: 20px;
     box-sizing: border-box;
     width: 100%;
+    height: 100vh;
     background-color: var(--background-color);
 }
 .introduction{
@@ -40,23 +56,26 @@ main{
     padding: 0;
     width: 100vw;
 }
+
 .presentation{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin-left: 50px;
     margin-right: 100px;
+    color: var(--third-color);
+    font-size: 2em;
+}
+.name{
     color: var(--text-color);
-    font-size: 50px;
+    display: block;
+    font-size: 3em;
 }
 .main-content{
     margin: 0;
     margin-left: 50px;
     margin-right: 100px;
-    color: var(--fifth-color);
-    font-size: 100px;
+    color: var(--third-color);
+    font-size: 4em;
 }
 
 .second-content{
@@ -73,29 +92,27 @@ main{
     background-color: var(--text-color);
 }
 .nav-links{
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     column-gap: 50px;
     list-style-type: none;
+    justify-content: center;
 }
-a{
-    text-decoration: none;
-    height: 0;
-}
+
 .link{
-    color: #fff;
+    color: var(--third-color);
     font-size: 20px;
     font-weight: 500;
 }
-.nav-link:visited,.nav-link:link{
-    color: #fff;
+.nav-links a{
+    color: var(--third-color);
+    text-decoration: none;
 }
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left:350px;
-    margin-right:350px;
+.nav-links a:hover{
+    color: var(--background-color);
+    text-decoration: none;
 }
 .project-button{
     background-color: var(--fourth-color);
@@ -108,27 +125,35 @@ a{
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 45%;
+}
+.project-button a{
+    color: var(--fifth-color);
+    text-decoration: none;
+}
+.project-button a:hover{
+    color: var(--third-color);
+}
+.project-container{
+    background-color: var(--fourth-color);
 }
 .icon{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;  
-    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
 }
 .box-container{
     top: 150px;
     position: relative;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 150px;
-    margin-right: 150px;
-    justify-content: space-between;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    column-gap: 5%;
 }
 
 .box{
     width: 300px;
-    height: 350px;
+    height: 250px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     padding: 30px;
@@ -145,4 +170,33 @@ a{
 .box-content{
     text-align: justify;
     text-indent: 3%;
+}
+.contact{
+    margin: 0 auto;
+    background-color: #5B83A6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 2px solid var(--third-color);
+    border-bottom:2px solid var(--third-color);
+}
+.contact-title{
+    margin-top: 40px;
+}
+.contact-paragraph{
+    font-size: 1.5em;
+}
+.email-button{
+    background-color: var(--fifth-color);
+    border: none;
+    padding: 7px;
+    color: var(--third-color);
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.email-button:hover{
+   background-color: #0d115d;
 }

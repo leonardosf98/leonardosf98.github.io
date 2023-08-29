@@ -15,7 +15,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--text-color);
+    background-color: var(--background-color);
 }
 .title{
     font-size: 30px;
@@ -35,11 +35,13 @@ body{
     color: #0d115d;
 }
 .header{
+    width: 100%;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;   
     padding-bottom: 10px;
+    background-color: var(--text-color);
 }
 .nav-links{
     margin: 0;
@@ -52,16 +54,6 @@ body{
     list-style-type: none;
     row-gap: 15px;
     align-self: center;
-}
-@media screen and (min-width: 600px){
-    .nav-links{
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: column wrap;
-    }
-    .title{
-        flex-basis: 25%;
-    }
 }
     
 .link{
@@ -92,7 +84,32 @@ main{
     display: flex;
     flex-direction: column;
     padding-bottom: 2em;
+    max-width: 50%;
 }
+@media screen and (min-width: 600px){
+    .title{
+        flex-basis: 0%;
+        margin: 0;
+    }
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .introduction-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-links{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .title{
+        flex-basis: 25%;
+    }
+}
+    
 .presentation-container{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -100,6 +117,7 @@ main{
     flex-direction: column;
     row-gap: 20px;
     justify-content: center ;
+    width: 100%;
 }
 .presentation{
     margin-top: 0px;
@@ -123,6 +141,8 @@ main{
     font-size: 3em;
     font-weight: 700;
     line-height: 1;
+   width: 550px;
+   height: 25%;
 }
 
 .second-content{
@@ -135,10 +155,11 @@ main{
     line-height: 1.5;
 }
 .ilustration{
-    width: 50%;
+    max-width: 100%;
     display: block;
     margin:0 auto;
 }
+
 .second-part{
     background-color: var(--text-color);
 }
@@ -174,6 +195,7 @@ article{
     font-weight: 700;
     text-align: left;
     padding-left: 20px;
+    padding-top: 20px;
 }
 .project-title{
     color: #03ffdd;
@@ -262,26 +284,21 @@ article{
     border-bottom:2px solid var(--third-color);
 }
 .contact-title{
-    margin-top: 40px;
-    color: var(--text-color);
-}
-.contact-paragraph{
-    font-size: 1.5em;
-    color: var(--text-color)
-}
-.send-button{
-    background-color: var(--fourth-color);
-    color: var(--fifth-color);
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
+    color: var(--third-color);
     font-size: 2em;
-    font-weight:600;
+    font-weight: 700;
+    text-align: center;
+}
+.mb-3{
+    color: var(--third-color);
+    width: 75%;
+}
+.btn-primary{
+    background-color: var(--fourth-color);
     cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
     width: 200px;
     margin: 0 auto;
+    border: none;
 
 }
 .send-button:hover{

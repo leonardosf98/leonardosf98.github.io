@@ -1,21 +1,19 @@
-import { Container, Group, Burger, Text, ActionIcon, rem } from "@mantine/core";
-import { useDisclosure } from "@mantine/hooks";
-import classes from "./HeaderSimple.module.css";
+import { Container, Group, Text, ActionIcon, rem } from '@mantine/core';
+
+import classes from './HeaderSimple.module.css';
 import {
   IconDeviceDesktopCode,
   IconBrandLinkedin,
   IconBrandGithub,
-} from "@tabler/icons-react";
+} from '@tabler/icons-react';
 
 const links = [
-  { link: "#about", label: "Sobre mim" },
-  { link: "#skills", label: "Habilidades" },
-  { link: "#projects", label: "Projetos" },
+  { link: '#about', label: 'Sobre mim' },
+  { link: '#skills', label: 'Habilidades' },
+  { link: '#projects', label: 'Projetos' },
 ];
 
 export function HeaderSimple() {
-  const [opened, { toggle }] = useDisclosure(false);
-
   const items = links.map((link) => (
     <a key={link.label} href={link.link} className={classes.link}>
       {link.label}
@@ -33,7 +31,7 @@ export function HeaderSimple() {
           {items}
         </Group>
         <Group
-          gap={"md"}
+          gap={'md'}
           className={classes.links}
           justify="flex-end"
           wrap="nowrap"
@@ -63,7 +61,6 @@ export function HeaderSimple() {
             />
           </ActionIcon>
         </Group>
-        <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
       </Container>
     </header>
   );

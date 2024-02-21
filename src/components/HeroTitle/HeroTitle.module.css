@@ -7,7 +7,6 @@
     var(--mantine-color-white),
     var(--mantine-color-dark-8)
   );
-  height: 100vh;
 }
 
 .inner {
@@ -15,7 +14,7 @@
   padding-top: rem(200px);
   padding-bottom: rem(120px);
 
-  @media (max-width: var(--mantine-breakpoint-sm)) {
+  @media (max-width: 36em) {
     padding-bottom: rem(80px);
     padding-top: rem(80px);
   }
@@ -28,9 +27,9 @@
   line-height: 1.1;
   margin: 0;
   padding: 0;
-  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  color: light-dark(var(--mantine-color-white), var(--mantine-color-white));
 
-  @media (max-width: var(--mantine-breakpoint-sm)) {
+  @media (max-width: 36em) {
     font-size: rem(42px);
     line-height: 1.2;
   }
@@ -39,8 +38,8 @@
 .description {
   margin-top: var(--mantine-spacing-xl);
   font-size: rem(24px);
-
-  @media (max-width: var(--mantine-breakpoint-sm)) {
+  color: var(--mantine-color-white);
+  @media (max-width: 36em) {
     font-size: rem(18px);
   }
 }
@@ -48,7 +47,7 @@
 .controls {
   margin-top: calc(var(--mantine-spacing-xl) * 2);
 
-  @media (max-width: var(--mantine-breakpoint-sm)) {
+  @media (max-width: 36em) {
     margin-top: var(--mantine-spacing-xl);
   }
 }
@@ -58,7 +57,7 @@
   padding-left: rem(38px);
   padding-right: rem(38px);
 
-  @media (max-width: var(--mantine-breakpoint-sm)) {
+  @media (max-width: 36em) {
     height: rem(54px);
     padding-left: rem(18px);
     padding-right: rem(18px);

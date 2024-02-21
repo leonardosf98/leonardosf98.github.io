@@ -1,36 +1,36 @@
-import { Overlay, Container, Text, Button, Group } from '@mantine/core';
-import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react';
-import classes from './HeroTitle.module.css';
+import { Overlay, Container, Text, Button, Group } from "@mantine/core";
+import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import classes from "./HeroTitle.module.css";
 
 export function HeroTitle() {
   return (
     <div className={classes.wrapper}>
       <Overlay
-        gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, .75) 40%)"
+        gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, .75) 40%)"
         opacity={1}
         zIndex={0}
       />
       <Container size={800} className={classes.inner}>
         <h1 className={classes.title}>
           Oi! Eu sou o Léo
-          <br />e sou{' '}
+          <br />e sou{" "}
           <Text
             component="span"
             variant="gradient"
-            gradient={{ from: 'blue', to: 'cyan' }}
+            gradient={{ from: "blue", to: "cyan" }}
             inherit
           >
             desenvolvedor full stack
-          </Text>{' '}
-          e{' '}
+          </Text>{" "}
+          e{" "}
           <Text
             component="span"
             variant="gradient"
-            gradient={{ from: 'blue', to: 'cyan' }}
+            gradient={{ from: "blue", to: "cyan" }}
             inherit
           >
             nutricionista
-          </Text>{' '}
+          </Text>{" "}
           .
         </h1>
 
@@ -46,7 +46,7 @@ export function HeroTitle() {
             size="xl"
             className={classes.control}
             variant="gradient"
-            gradient={{ from: 'blue', to: 'cyan' }}
+            gradient={{ from: "blue", to: "cyan" }}
             leftSection={<IconBrandLinkedin size={20} />}
           >
             Linkedin

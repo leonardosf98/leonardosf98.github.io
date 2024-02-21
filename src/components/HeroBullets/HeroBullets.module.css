@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding-bottom: calc(var(--mantine-spacing-xl) * 4);
   @media (max-width: 36em) {
+    align-items: center;
     flex-direction: column-reverse;
   }
 }
@@ -39,6 +40,8 @@
   width: rem(406px);
   height: rem(406px);
   @media (max-width: 36em) {
+    width: rem(320px);
+    height: rem(320px);
     margin-bottom: calc(var(--mantine-spacing-xl) * 3);
   }
 }

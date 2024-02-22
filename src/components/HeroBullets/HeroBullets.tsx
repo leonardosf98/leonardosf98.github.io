@@ -8,12 +8,14 @@ import {
   List,
   ThemeIcon,
   rem,
+  Transition,
 } from '@mantine/core';
 import { IconCheck } from '@tabler/icons-react';
 import classes from './HeroBullets.module.css';
-import { useSetState } from '@mantine/hooks';
+import { useToggle } from '@mantine/hooks';
 import programming from './programming.svg';
 import interview from './interview.svg';
+import { useState } from 'react';
 
 export function HeroBullets() {
   const nutrition = {
@@ -37,7 +39,7 @@ export function HeroBullets() {
   const tech = {
     title: 'Um novo ',
     titleSpan: 'desafio',
-    titleLastPart: '',
+    titleLastPart: 'em uma nova área',
     subtitle:
       'Sempre fui muito curioso quanto ao funcionamento do computador que tive desde pequeno em casa, meus pais odiavam quando eu o desmontava. Hoje me apoiam na carreira.',
     bulletOneTitle: 'Formação',
@@ -53,73 +55,91 @@ export function HeroBullets() {
     buttonOneState: 'filled',
     buttonTwoState: 'default',
   };
+  const handleClick = () => {
+    setShow(false);
+    console.log(show);
+    toggle();
+    setShow(true);
+  };
 
-  const [info, setInfo] = useSetState(tech);
+  const [info, toggle] = useToggle([tech, nutrition]);
+  const [show, setShow] = useState(true);
 
   return (
     <Container size="lg">
-      <div className={classes.inner} id="about">
-        <div className={classes.content}>
-          <Title className={classes.title}>
-            {info.title}{' '}
-            <span className={classes.highlight}>{info.titleSpan}</span> <br />{' '}
-            {info.titleLastPart}
-          </Title>
-          <Text c="dimmed" mt="md">
-            {info.subtitle}
-          </Text>
+      <Transition
+        mounted={show}
+        transition="fade"
+        duration={400}
+        timingFunction="ease"
+      >
+        {(styles) => {
+          return (
+            <div style={styles} className={classes.inner} id="about">
+              <div className={classes.content}>
+                <Title className={classes.title}>
+                  {info.title}{' '}
+                  <span className={classes.highlight}>{info.titleSpan}</span>{' '}
+                  <br /> {info.titleLastPart}
+                </Title>
+                <Text c="dimmed" mt="md">
+                  {info.subtitle}
+                </Text>
 
-          <List
-            mt={30}
-            spacing="sm"
-            size="sm"
-            icon={
-              <ThemeIcon size={20} radius="xl">
-                <IconCheck
-                  style={{ width: rem(12), height: rem(12) }}
-                  stroke={1.5}
-                />
-              </ThemeIcon>
-            }
-          >
-            <List.Item>
-              <b>{info.bulletOneTitle}</b>
-              {info.bulletOneContent}
-            </List.Item>
-            <List.Item>
-              <b>{info.bulletTwoTitle}</b>
-              {info.bulletTwoContent}
-            </List.Item>
-            <List.Item>
-              <b>{info.bulletThreeTitle}</b>
-              {info.bulletThreeContent}
-            </List.Item>
-          </List>
+                <List
+                  mt={30}
+                  spacing="sm"
+                  size="sm"
+                  icon={
+                    <ThemeIcon size={20} radius="xl">
+                      <IconCheck
+                        style={{ width: rem(12), height: rem(12) }}
+                        stroke={1.5}
+                      />
+                    </ThemeIcon>
+                  }
+                >
+                  <List.Item>
+                    <b>{info.bulletOneTitle}</b>
+                    {info.bulletOneContent}
+                  </List.Item>
+                  <List.Item>
+                    <b>{info.bulletTwoTitle}</b>
+                    {info.bulletTwoContent}
+                  </List.Item>
+                  <List.Item>
+                    <b>{info.bulletThreeTitle}</b>
+                    {info.bulletThreeContent}
+                  </List.Item>
+                </List>
 
-          <Group mt={30}>
-            <Button
-              variant={info.buttonOneState}
-              radius="xl"
-              size="md"
-              className={classes.control}
-              onClick={() => setInfo(tech)}
-            >
-              Tecnologia
-            </Button>
-            <Button
-              variant={info.buttonTwoState}
-              radius="xl"
-              size="md"
-              className={classes.control}
-              onClick={() => setInfo(nutrition)}
-              id="skills"
-            >
-              Saúde
-            </Button>
-          </Group>
-        </div>
-        <Image src={info.image} className={classes.image} />
-      </div>
+                <Group mt={30}>
+                  <Button
+                    variant={info.buttonOneState}
+                    radius="xl"
+                    size="md"
+                    className={classes.control}
+                    onClick={() => handleClick()}
+                  >
+                    Tecnologia
+                  </Button>
+                  <Button
+                    variant={info.buttonTwoState}
+                    radius="xl"
+                    size="md"
+                    className={classes.control}
+                    onClick={() => handleClick()}
+                    id="skills"
+                  >
+                    Saúde
+                  </Button>
+                </Group>
+              </div>
+              <Image src={info.image} className={classes.image} />
+            </div>
+          );
+        }}
+      </Transition>
     </Container>
   );
 }

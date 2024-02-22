@@ -1,7 +1,7 @@
 .inner {
   display: flex;
   justify-content: space-between;
-  padding-bottom: calc(var(--mantine-spacing-xl) * 4);
+  padding-bottom: calc(var(--mantine-spacing-md) * 4);
   @media (max-width: 36em) {
     align-items: center;
     flex-direction: column-reverse;
@@ -10,11 +10,13 @@
 
 .content {
   max-width: rem(480px);
+  min-height: rem(500px);
   margin-right: calc(var(--mantine-spacing-xl) * 3);
 
   @media (max-width: 62em) {
     max-width: 100%;
     margin-right: 0;
+    min-height: rem(580px);
   }
 }
 

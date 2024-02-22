@@ -19,6 +19,7 @@ import { useState } from "react";
 
 export function HeroBullets() {
   const nutrition = {
+    name: "nutrition",
     title: "Abordagem",
     titleSpan: "humana e individual",
     titleLastPart: "da nutrição",
@@ -33,10 +34,10 @@ export function HeroBullets() {
     bulletThreeContent:
       " - Muitas vezes a atuação envolve contato com outros profissionais da área da saúde",
     image: interview,
-    buttonOneState: "default",
-    buttonTwoState: "filled",
+    buttonContent: "Tecnologia",
   };
   const tech = {
+    name: "tech",
     title: "Um novo ",
     titleSpan: "desafio",
     titleLastPart: "em uma nova área",
@@ -52,12 +53,10 @@ export function HeroBullets() {
     bulletThreeContent:
       " - Colaborei em projetos de desenvolvimento de software, interagindo com colegas e profissionais para alcançar soluções eficientes e inovadoras.",
     image: programming,
-    buttonOneState: "filled",
-    buttonTwoState: "default",
+    buttonContent: "Saúde",
   };
   const handleClick = () => {
     setShow(false);
-    console.log(show);
     toggle();
     setTimeout(() => {
       setShow(true);
@@ -118,23 +117,13 @@ export function HeroBullets() {
 
                 <Group mt={30}>
                   <Button
-                    variant={info.buttonOneState}
+                    variant="filled"
                     radius="xl"
                     size="md"
                     className={classes.control}
                     onClick={() => handleClick()}
                   >
-                    Tecnologia
-                  </Button>
-                  <Button
-                    variant={info.buttonTwoState}
-                    radius="xl"
-                    size="md"
-                    className={classes.control}
-                    onClick={() => handleClick()}
-                    id="skills"
-                  >
-                    Saúde
+                    {info.buttonContent}
                   </Button>
                 </Group>
               </div>

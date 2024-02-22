@@ -25,6 +25,7 @@ interface CardProps {
 function Card({ image, title, category, link, repo }: CardProps) {
   return (
     <Paper
+      id="projects"
       shadow="md"
       p="xl"
       radius="md"
@@ -118,6 +119,7 @@ export function CardsCarousel() {
       slideGap={{ base: rem(2), sm: 'xl' }}
       align="start"
       slidesToScroll={mobile ? 1 : 2}
+      loop
     >
       {slides}
     </Carousel>

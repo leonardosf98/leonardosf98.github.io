@@ -55,7 +55,7 @@ export function ActionsGrid() {
       <Group justify="space-between">
         <Text className={classes.title}>Habilidades</Text>
       </Group>
-      <SimpleGrid cols={3} mt="md" id="projects">
+      <SimpleGrid cols={3} mt="md">
         {items}
       </SimpleGrid>
     </Card>

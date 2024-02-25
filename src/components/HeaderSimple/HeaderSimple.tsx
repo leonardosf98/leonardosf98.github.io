@@ -25,7 +25,12 @@ export function HeaderSimple() {
   const [opened, { toggle }] = useDisclosure(false);
 
   const items = links.map((link) => (
-    <a key={link.label} href={link.link} className={classes.link}>
+    <a
+      key={link.label}
+      href={link.link}
+      className={classes.link}
+      onClick={toggle}
+    >
       {link.label}
     </a>
   ));
@@ -71,14 +76,15 @@ export function HeaderSimple() {
             />
           </ActionIcon>
 
-          <Menu shadow="md" width={200}>
+          <Menu
+            shadow="md"
+            width={200}
+            closeOnClickOutside={true}
+            closeOnItemClick={true}
+            onClose={toggle}
+          >
             <Menu.Target>
-              <Burger
-                opened={opened}
-                onClick={toggle}
-                hiddenFrom="xs"
-                size="sm"
-              />
+              <Burger opened={opened} hiddenFrom="xs" size="sm" />
             </Menu.Target>
             <Menu.Dropdown>
               {items.map((item) => {

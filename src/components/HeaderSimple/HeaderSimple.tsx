@@ -84,7 +84,12 @@ export function HeaderSimple() {
             onClose={toggle}
           >
             <Menu.Target>
-              <Burger opened={opened} hiddenFrom="xs" size="sm" />
+              <Burger
+                opened={opened}
+                onClick={toggle}
+                hiddenFrom="xs"
+                size="sm"
+              />
             </Menu.Target>
             <Menu.Dropdown>
               {items.map((item) => {

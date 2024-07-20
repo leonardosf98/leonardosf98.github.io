@@ -3,6 +3,8 @@ import { useMediaQuery } from '@mantine/hooks';
 import wordle from '../../assets/wordle.png';
 import sudoku from '../../assets/sudoku.png';
 import calculadora from '../../assets/calculadora.png';
+import tasklist from '../../assets/api-task.png'
+
 import {
   Paper,
   Text,
@@ -86,6 +88,13 @@ const data = [
     category: 'React',
     link: 'https://sudoku-leonardosf98.vercel.app/',
     repo: 'https://github.com/leonardosf98/sudoku',
+  },
+  {
+    image: tasklist,
+    title: 'API Lista de tarefas',
+    category: 'Java - Spring - H2',
+    link: 'https://github.com/leonardosf98/todolist-backend/',
+    repo: 'https://github.com/leonardosf98/todolist-backend',
   },
   {
     image:

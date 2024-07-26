@@ -5,13 +5,12 @@ import {
   UnstyledButton,
   Group,
   useMantineTheme,
-} from '@mantine/core';
+} from "@mantine/core";
 import {
   IconBrandReact,
   IconBrandJavascript,
   IconGitCommit,
   IconBrandMysql,
-  IconBrandCss3,
   IconLanguage,
   IconFileTypeHtml,
   IconBrandTypescript,
@@ -19,23 +18,24 @@ import {
   IconTerminal,
   IconUsersGroup,
   IconSpeakerphone,
-} from '@tabler/icons-react';
+} from "@tabler/icons-react";
 
-import classes from './ActionsGrid.module.css';
+import classes from "./ActionsGrid.module.css";
+import { SiNestjs } from "react-icons/si";
 
 const mockdata = [
-  { title: 'Javascript', icon: IconBrandJavascript, color: 'indigo' },
-  { title: 'React', icon: IconBrandReact, color: 'violet' },
-  { title: 'Git e Github', icon: IconGitCommit, color: 'blue' },
-  { title: 'Colaboração em equipe', icon: IconUsersGroup, color: 'violet' },
-  { title: 'CSS', icon: IconBrandCss3, color: 'green' },
-  { title: 'MySQL', icon: IconBrandMysql, color: 'teal' },
-  { title: 'Inglês', icon: IconLanguage, color: 'cyan' },
-  { title: 'HTML e Semântinca', icon: IconFileTypeHtml, color: 'pink' },
-  { title: 'TypeScript', icon: IconBrandTypescript, color: 'red' },
-  { title: 'Node.js', icon: IconBrandNodejs, color: 'orange' },
-  { title: 'Express.js', icon: IconTerminal, color: 'indigo' },
-  { title: 'Comunicação efetiva', icon: IconSpeakerphone, color: 'cyan' },
+  { title: "Javascript", icon: IconBrandJavascript, color: "indigo" },
+  { title: "React", icon: IconBrandReact, color: "violet" },
+  { title: "Git e Github", icon: IconGitCommit, color: "blue" },
+  { title: "Colaboração em equipe", icon: IconUsersGroup, color: "violet" },
+  { title: "HTML e CSS", icon: IconFileTypeHtml, color: "green" },
+  { title: "MySQL", icon: IconBrandMysql, color: "teal" },
+  { title: "Inglês", icon: IconLanguage, color: "cyan" },
+  { title: "NestJS", icon: SiNestjs, color: "pink" },
+  { title: "TypeScript", icon: IconBrandTypescript, color: "red" },
+  { title: "Node.js", icon: IconBrandNodejs, color: "orange" },
+  { title: "Express.js", icon: IconTerminal, color: "indigo" },
+  { title: "Comunicação efetiva", icon: IconSpeakerphone, color: "cyan" },
 ];
 
 export function ActionsGrid() {

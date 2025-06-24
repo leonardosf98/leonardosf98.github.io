@@ -8,34 +8,26 @@ import {
 } from "@mantine/core";
 import {
   IconBrandReact,
-  IconBrandJavascript,
   IconGitCommit,
-  IconBrandMysql,
   IconLanguage,
-  IconFileTypeHtml,
-  IconBrandTypescript,
   IconBrandNodejs,
-  IconTerminal,
-  IconUsersGroup,
-  IconSpeakerphone,
+  IconBrandVue,
+  IconBrandPython,
 } from "@tabler/icons-react";
 
 import classes from "./ActionsGrid.module.css";
-import { SiNestjs } from "react-icons/si";
+import { SiJenkins, SiPostgresql, SiSpringboot } from "react-icons/si";
 
 const mockdata = [
-  { title: "Javascript", icon: IconBrandJavascript, color: "indigo" },
+  { title: "Vue", icon: IconBrandVue, color: "indigo" },
   { title: "React", icon: IconBrandReact, color: "violet" },
   { title: "Git e Github", icon: IconGitCommit, color: "blue" },
-  { title: "Colaboração em equipe", icon: IconUsersGroup, color: "violet" },
-  { title: "HTML e CSS", icon: IconFileTypeHtml, color: "green" },
-  { title: "MySQL", icon: IconBrandMysql, color: "teal" },
+  { title: "Jenkins", icon: SiJenkins, color: "violet" },
+  { title: "Postgres", icon: SiPostgresql, color: "red" },
   { title: "Inglês", icon: IconLanguage, color: "cyan" },
-  { title: "NestJS", icon: SiNestjs, color: "pink" },
-  { title: "TypeScript", icon: IconBrandTypescript, color: "red" },
-  { title: "Node.js", icon: IconBrandNodejs, color: "orange" },
-  { title: "Express.js", icon: IconTerminal, color: "indigo" },
-  { title: "Comunicação efetiva", icon: IconSpeakerphone, color: "cyan" },
+  { title: "Java e Spring", icon: SiSpringboot, color: "green" },
+  { title: "Node.js (Nest.js)", icon: IconBrandNodejs, color: "orange" },
+  { title: "Pyhton (FastAPI)", icon: IconBrandPython, color: "indigo" },
 ];
 
 export function ActionsGrid() {

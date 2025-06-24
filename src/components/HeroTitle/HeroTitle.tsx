@@ -22,16 +22,7 @@ export function HeroTitle() {
           >
             desenvolvedor full stack
           </Text>{" "}
-          e{" "}
-          <Text
-            component="span"
-            variant="gradient"
-            gradient={{ from: "blue", to: "cyan" }}
-            inherit
-          >
-            nutricionista
-          </Text>{" "}
-          .
+          (Java, Python, Node.js)
         </h1>
 
         <Text className={classes.description}>

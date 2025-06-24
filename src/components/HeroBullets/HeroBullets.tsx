@@ -3,135 +3,74 @@ import {
   Container,
   Title,
   Flex,
-  Text,
   List,
   ThemeIcon,
   rem,
-  Transition,
-  Switch,
-} from '@mantine/core';
-import { IconCheck } from '@tabler/icons-react';
-import classes from './HeroBullets.module.css';
-import { useToggle } from '@mantine/hooks';
-import programming from './programming.svg';
-import interview from './interview.svg';
-import { useState } from 'react';
+} from "@mantine/core";
+import { IconCheck } from "@tabler/icons-react";
+import classes from "./HeroBullets.module.css";
+import programming from "./programming.svg";
 
 export function HeroBullets() {
-  const nutrition = {
-    name: 'nutrition',
-    title: 'Abordagem',
-    titleSpan: 'humana e individual',
-    titleLastPart: 'da nutrição',
-    subtitle:
-      ' Escuta ativa, foco no cliente e trabalho em equipe são algumas das habilidades que desenvolvi ao longo da minha carreira como nutricionista clínico',
-    bulletOneTitle: 'Formação',
-    bulletOneContent: ' - Graduado na Universidade Federal de São Paulo',
-    bulletTwoTitle: 'Educação',
-    bulletTwoContent:
-      ' – Meu trabalho como nutricionista envolve educaros pacientes sobre as escolhas que eles fazem',
-    bulletThreeTitle: 'Trabalho em equipe',
-    bulletThreeContent:
-      ' - Muitas vezes a atuação envolve contato com outros profissionais da área da saúde',
-    image: interview,
-    buttonContent: 'Tecnologia',
-  };
-  const tech = {
-    name: 'tech',
-    title: 'Um novo ',
-    titleSpan: 'desafio',
-    titleLastPart: 'em uma nova área',
-    subtitle:
-      'Sempre fui muito curioso quanto ao funcionamento do computador que tive desde pequeno em casa, meus pais odiavam quando eu o desmontava. Hoje me apoiam na carreira.',
-    bulletOneTitle: 'Formação ',
-    bulletOneContent:
-      ' - Graduando em Sistemas para Internet na Faculdade de Tecnologia do Estado de São Paulo (FATEC)',
-    bulletTwoTitle: 'Facilidade em ensinar',
-    bulletTwoContent:
-      ' - Queria passar o que sei para os outros e minha primeira oportunidade foi na monitoria de lógica de programação da faculdade.',
-    bulletThreeTitle: 'Trabalho em Equipe',
-    bulletThreeContent:
-      ' - Colaborei em projetos de desenvolvimento de software, interagindo com colegas e profissionais para alcançar soluções eficientes e inovadoras.',
-    image: programming,
-    buttonContent: 'Saúde',
-  };
-  const handleClick = () => {
-    setShow(false);
-    toggle();
-    setTimeout(() => {
-      setShow(true);
-    }, 200);
-  };
+  const info = {
+    title: "Desenvolvedor Full Stack ",
+    titleSpan: "com foco em Backend",
+    titleLastPart: " (Java, Node.js, Python)",
 
-  const [info, toggle] = useToggle([tech, nutrition]);
-  const [show, setShow] = useState(true);
+    bulletOneTitle: "Experiência e adaptabilidade",
+    bulletOneContent:
+      " - Atuei em projetos diversos, de sistemas legados a soluções modernas com IA. Domino Java, Python, Jenkins, Vue 2 e GCP, com rápida adaptação a diferentes stacks.",
+
+    bulletTwoTitle: "Formação",
+    bulletTwoContent:
+      " - Graduando em Sistemas para Internet (FATEC). Fui monitor de Lógica de Programação por dois semestres.",
+
+    bulletThreeTitle: "IA e entregas com impacto",
+    bulletThreeContent:
+      " - Desenvolvi soluções com IA usando Python e GCP, focadas em otimização de processos. Entrego sistemas completos com impacto direto para o cliente.",
+
+    image: programming,
+  };
 
   return (
     <Container size="lg">
-      <Flex direction="column" align={'center'} mb={80}>
-        <Transition
-          mounted={show}
-          transition="slide-right"
-          duration={300}
-          timingFunction="ease"
-          keepMounted
-        >
-          {(styles) => {
-            return (
-              <div style={styles} className={classes.inner} id="about">
-                <div className={classes.content}>
-                  <Title className={classes.title}>
-                    {info.title}{' '}
-                    <span className={classes.highlight}>{info.titleSpan}</span>{' '}
-                    <br /> {info.titleLastPart}
-                  </Title>
-                  <Text c="dimmed" mt="md">
-                    {info.subtitle}
-                  </Text>
-
-                  <List
-                    mt={30}
-                    spacing="sm"
-                    size="sm"
-                    icon={
-                      <ThemeIcon size={20} radius="xl">
-                        <IconCheck
-                          style={{ width: rem(12), height: rem(12) }}
-                          stroke={1.5}
-                        />
-                      </ThemeIcon>
-                    }
-                  >
-                    <List.Item>
-                      <b>{info.bulletOneTitle}</b>
-                      {info.bulletOneContent}
-                    </List.Item>
-                    <List.Item>
-                      <b>{info.bulletTwoTitle}</b>
-                      {info.bulletTwoContent}
-                    </List.Item>
-                    <List.Item>
-                      <b>{info.bulletThreeTitle}</b>
-                      {info.bulletThreeContent}
-                    </List.Item>
-                  </List>
-                </div>
-                <Image src={info.image} className={classes.image} />
-              </div>
-            );
-          }}
-        </Transition>
-        <Switch
-          id="skills"
-          radius="xl"
-          onLabel="Tecnologia"
-          offLabel="Saúde"
-          size="xl"
-          defaultChecked={true}
-          onClick={() => handleClick()}
-        >
-          {info.buttonContent}
-        </Switch>
+      <Flex direction="column" align={"center"} mb={80}>
+        <div className={classes.inner} id="about">
+          <div className={classes.content}>
+            <Title className={classes.title}>
+              {info.title}{" "}
+              <span className={classes.highlight}>{info.titleSpan}</span> <br />{" "}
+              {info.titleLastPart}
+            </Title>
+            <List
+              mt={30}
+              spacing="sm"
+              size="sm"
+              icon={
+                <ThemeIcon size={20} radius="xl">
+                  <IconCheck
+                    style={{ width: rem(12), height: rem(12) }}
+                    stroke={1.5}
+                  />
+                </ThemeIcon>
+              }
+            >
+              <List.Item>
+                <b>{info.bulletOneTitle}</b>
+                {info.bulletOneContent}
+              </List.Item>
+              <List.Item>
+                <b>{info.bulletTwoTitle}</b>
+                {info.bulletTwoContent}
+              </List.Item>
+              <List.Item>
+                <b>{info.bulletThreeTitle}</b>
+                {info.bulletThreeContent}
+              </List.Item>
+            </List>
+          </div>
+          <Image src={info.image} className={classes.image} />
+        </div>
       </Flex>
     </Container>
   );

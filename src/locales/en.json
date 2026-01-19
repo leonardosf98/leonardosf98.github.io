@@ -1,0 +1,53 @@
+{
+  "header": {
+    "links": {
+      "about": "About me",
+      "skills": "Skills",
+      "projects": "Projects"
+    },
+    "siteTitle": "leosouzanutri.dev",
+    "language": "Language"
+  },
+  "hero": {
+    "greeting": "Hi! I'm Léo",
+    "andIam": "and I'm",
+    "role": "full stack developer",
+    "title": "Full Stack Developer",
+    "titleSpan": "Backend-oriented",
+    "titleLastPart": " (Java, Node.js, Python)",
+    "technologies": "(Java, Python, Node.js)",
+    "description": "Let's work together? Connect with me on LinkedIn!",
+    "cta": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "bulletOneTitle": "Strong backend & cloud foundation",
+    "bulletOneContent": "Hands-on experience building and maintaining backend systems, from legacy applications to modern cloud-native solutions. Proficient in Java, Node.js, and Python, with solid experience in distributed systems and cloud environments.",
+    "bulletTwoTitle": "Academic background & international experience",
+    "bulletTwoContent": "Undergraduate student in Internet Systems (FATEC), with experience as a Programming Logic teaching assistant. Currently an exchange student through FATEC at the Polytechnic Institute of Bragança (Portugal), attending courses fully in English.",
+    "bulletThreeTitle": "Practical AI and business-driven solutions",
+    "bulletThreeContent": "Developed AI-powered solutions using Python and cloud services to optimize processes and improve decision-making. Focused on delivering end-to-end systems that generate measurable business impact."
+  },
+  "skills": {
+    "title": "Skills",
+    "items": {
+      "vue": "Vue",
+      "next": "Next.js",
+      "git": "Git & GitHub",
+      "gcp": "GCP",
+      "aws": "AWS Developer Associate (click to see the certificate)",
+      "english": "English",
+      "java": "Java & Spring",
+      "node": "Node.js (Nest.js)",
+      "python": "Python (FastAPI)"
+    }
+  },
+  "projects": {
+    "title": "Some of my best projects",
+    "accessProject": "Access project",
+    "accessRepo": "Access repository"
+  },
+  "companies": {
+    "title": "Companies I've worked at"
+  }
+}

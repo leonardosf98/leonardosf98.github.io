@@ -1,0 +1,53 @@
+{
+  "header": {
+    "links": {
+      "about": "Sobre mí",
+      "skills": "Habilidades",
+      "projects": "Proyectos"
+    },
+    "siteTitle": "leosouzanutri.dev",
+    "language": "Idioma"
+  },
+  "hero": {
+    "greeting": "¡Hola! Soy Léo",
+    "andIam": "y soy",
+    "role": "desarrollador full stack",
+    "title": "Full Stack Developer",
+    "titleSpan": "Orientado a backend",
+    "titleLastPart": " (Java, Node.js, Python)",
+    "technologies": "(Java, Python, Node.js)",
+    "description": "¿Trabajamos juntos? ¡Conéctate conmigo en LinkedIn!",
+    "cta": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "bulletOneTitle": "Sólida base en backend y cloud",
+    "bulletOneContent": "Experiencia práctica construyendo y manteniendo sistemas backend, desde aplicaciones legadas hasta soluciones cloud-native modernas. Competente en Java, Node.js y Python, con experiencia en sistemas distribuidos y entornos en la nube.",
+    "bulletTwoTitle": "Formación académica y experiencia internacional",
+    "bulletTwoContent": "Estudiante de grado en Sistemas para Internet (FATEC), con experiencia como asistente de enseñanza de Lógica de Programación. Actualmente de intercambio por FATEC en el Instituto Politécnico de Bragança (Portugal), cursando asignaturas en inglés.",
+    "bulletThreeTitle": "Soluciones prácticas de IA orientadas al negocio",
+    "bulletThreeContent": "Desarrolló soluciones con IA usando Python y servicios en la nube para optimizar procesos y mejorar la toma de decisiones. Enfocado en entregar sistemas end-to-end que generan impacto comercial medible."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "items": {
+      "vue": "Vue",
+      "next": "Next.js",
+      "git": "Git y GitHub",
+      "gcp": "GCP",
+      "aws": "AWS Developer Associate (haz click para ver el certificado)",
+      "english": "Inglés",
+      "java": "Java y Spring",
+      "node": "Node.js (Nest.js)",
+      "python": "Python (FastAPI)"
+    }
+  },
+  "projects": {
+    "title": "Algunos de mis mejores proyectos",
+    "accessProject": "Acceder al proyecto",
+    "accessRepo": "Acceder al repositorio"
+  },
+  "companies": {
+    "title": "Empresas donde trabajé"
+  }
+}

@@ -3,7 +3,7 @@
     var(--mantine-color-gray-0),
     var(--mantine-color-dark-6)
   );
-  margin-bottom: rem(80px);
+  margin-bottom: rem(36px);
 }
 
 .title {

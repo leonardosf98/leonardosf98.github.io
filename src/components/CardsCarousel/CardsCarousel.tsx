@@ -16,6 +16,8 @@ import {
 } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import classes from "./CardsCarousel.module.css";
+import { Container } from "@mantine/core";
+import { t } from "i18next";
 
 interface CardProps {
   image: string;
@@ -125,14 +127,19 @@ export function CardsCarousel() {
   ));
 
   return (
-    <Carousel
-      slideSize={{ base: "100%", sm: "50%" }}
-      slideGap={{ base: rem(2), sm: "xl" }}
-      align="start"
-      slidesToScroll={mobile ? 1 : 2}
-      loop
-    >
-      {slides}
-    </Carousel>
+    <Container size="xl" mb={rem(36)}>
+      <Title ta={"center"} order={2} fw={600} mb={"lg"}>
+        {t("projects.title")}
+      </Title>
+      <Carousel
+        slideSize={{ base: "100%", sm: "50%" }}
+        slideGap={{ base: rem(2), sm: "xl" }}
+        align="start"
+        slidesToScroll={mobile ? 1 : 2}
+        loop
+      >
+        {slides}
+      </Carousel>
+    </Container>
   );
 }

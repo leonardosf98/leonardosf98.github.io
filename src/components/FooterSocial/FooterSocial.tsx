@@ -1,21 +1,23 @@
-import { Container, Group, ActionIcon, rem, Text } from '@mantine/core';
+import { Container, Group, ActionIcon, rem, Text } from "@mantine/core";
 import {
   IconBrandLinkedin,
   IconBrandGithub,
   IconDeviceDesktopCode,
-} from '@tabler/icons-react';
-import classes from './FooterSocial.module.css';
+} from "@tabler/icons-react";
+import classes from "./FooterSocial.module.css";
+import { useTranslation } from "react-i18next";
 
 export function FooterSocial() {
+  const { t } = useTranslation();
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
         <Group>
           <IconDeviceDesktopCode size={28} />
-          <Text>leosouzanutri.dev</Text>
+          <Text>{t("header.siteTitle")}</Text>
         </Group>
         <Group
-          gap={'md'}
+          gap={"md"}
           className={classes.links}
           justify="flex-end"
           wrap="nowrap"

@@ -14,6 +14,7 @@ import {
   rem,
   Group,
 } from "@mantine/core";
+import { useTranslation } from "react-i18next";
 import classes from "./CardsCarousel.module.css";
 
 interface CardProps {
@@ -25,6 +26,7 @@ interface CardProps {
 }
 
 function Card({ image, title, category, link, repo }: CardProps) {
+  const { t } = useTranslation();
   return (
     <Paper
       id="projects"
@@ -50,7 +52,7 @@ function Card({ image, title, category, link, repo }: CardProps) {
           variant="white"
           color="dark"
         >
-          Acessar projeto
+          {t("projects.accessProject")}
         </Button>
         <Button
           component="a"
@@ -59,7 +61,7 @@ function Card({ image, title, category, link, repo }: CardProps) {
           variant="white"
           color="dark"
         >
-          Acessar repositório
+          {t("projects.accessRepo")}
         </Button>
       </Group>
     </Paper>

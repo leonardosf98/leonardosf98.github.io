@@ -10,27 +10,10 @@ import {
 import { IconCheck } from "@tabler/icons-react";
 import classes from "./HeroBullets.module.css";
 import programming from "./programming.svg";
+import { useTranslation } from "react-i18next";
 
 export function HeroBullets() {
-  const info = {
-    title: "Desenvolvedor Full Stack ",
-    titleSpan: "com foco em Backend",
-    titleLastPart: " (Java, Node.js, Python)",
-
-    bulletOneTitle: "Experiência e adaptabilidade",
-    bulletOneContent:
-      " - Atuei em projetos diversos, de sistemas legados a soluções modernas com IA. Domino Java, Python, Jenkins, Vue 2 e GCP, com rápida adaptação a diferentes stacks.",
-
-    bulletTwoTitle: "Formação",
-    bulletTwoContent:
-      " - Graduando em Sistemas para Internet (FATEC). Fui monitor de Lógica de Programação por dois semestres.",
-
-    bulletThreeTitle: "IA e entregas com impacto",
-    bulletThreeContent:
-      " - Desenvolvi soluções com IA usando Python e GCP, focadas em otimização de processos. Entrego sistemas completos com impacto direto para o cliente.",
-
-    image: programming,
-  };
+  const { t } = useTranslation();
 
   return (
     <Container size="lg">
@@ -38,9 +21,9 @@ export function HeroBullets() {
         <div className={classes.inner} id="about">
           <div className={classes.content}>
             <Title className={classes.title}>
-              {info.title}{" "}
-              <span className={classes.highlight}>{info.titleSpan}</span> <br />{" "}
-              {info.titleLastPart}
+              {t("hero.title")}{" "}
+              <span className={classes.highlight}>{t("hero.titleSpan")}</span>{" "}
+              <br /> {t("hero.titleLastPart")}
             </Title>
             <List
               mt={30}
@@ -56,20 +39,20 @@ export function HeroBullets() {
               }
             >
               <List.Item>
-                <b>{info.bulletOneTitle}</b>
-                {info.bulletOneContent}
+                <b>{t("hero.bulletOneTitle")} - </b>
+                {t("hero.bulletOneContent")}
               </List.Item>
               <List.Item>
-                <b>{info.bulletTwoTitle}</b>
-                {info.bulletTwoContent}
+                <b>{t("hero.bulletTwoTitle")} - </b>
+                {t("hero.bulletTwoContent")}
               </List.Item>
               <List.Item>
-                <b>{info.bulletThreeTitle}</b>
-                {info.bulletThreeContent}
+                <b>{t("hero.bulletThreeTitle")} - </b>
+                {t("hero.bulletThreeContent")}
               </List.Item>
             </List>
           </div>
-          <Image src={info.image} className={classes.image} />
+          <Image src={programming} className={classes.image} />
         </div>
       </Flex>
     </Container>

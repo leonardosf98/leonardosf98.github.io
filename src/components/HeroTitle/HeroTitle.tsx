@@ -1,8 +1,10 @@
 import { Overlay, Container, Text, Button, Group } from "@mantine/core";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import classes from "./HeroTitle.module.css";
+import { useTranslation } from "react-i18next";
 
 export function HeroTitle() {
+  const { t } = useTranslation();
   return (
     <div className={classes.wrapper}>
       <Overlay
@@ -12,22 +14,21 @@ export function HeroTitle() {
       />
       <Container size={800} className={classes.inner}>
         <h1 className={classes.title}>
-          Oi! Eu sou o Léo
-          <br />e sou{" "}
+          {t("hero.greeting")}
+          <br />
+          {t("hero.andIam")}{" "}
           <Text
             component="span"
             variant="gradient"
             gradient={{ from: "blue", to: "cyan" }}
             inherit
           >
-            desenvolvedor full stack
+            {t("hero.role")}
           </Text>{" "}
-          (Java, Python, Node.js)
+          {t("hero.technologies")}
         </h1>
 
-        <Text className={classes.description}>
-          Vamos trabalhar juntos? Conecta comigo no LinkedIn!
-        </Text>
+        <Text className={classes.description}>{t("hero.description")}</Text>
 
         <Group className={classes.controls}>
           <Button
@@ -40,7 +41,7 @@ export function HeroTitle() {
             gradient={{ from: "blue", to: "cyan" }}
             leftSection={<IconBrandLinkedin size={20} />}
           >
-            Linkedin
+            {t("hero.cta.linkedin")}
           </Button>
 
           <Button
@@ -52,7 +53,7 @@ export function HeroTitle() {
             className={classes.control}
             leftSection={<IconBrandGithub size={20} />}
           >
-            GitHub
+            {t("hero.cta.github")}
           </Button>
         </Group>
       </Container>

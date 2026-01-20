@@ -2,8 +2,7 @@ import { Carousel } from "@mantine/carousel";
 import { useMediaQuery } from "@mantine/hooks";
 import wordle from "../../assets/wordle.png";
 import sudoku from "../../assets/sudoku.png";
-import calculadora from "../../assets/calculadora.png";
-import tasklist from "../../assets/api-task.png";
+import lex from "../../assets/lex.gif";
 
 import {
   Paper,
@@ -71,8 +70,7 @@ function Card({ image, title, category, link, repo }: CardProps) {
 
 const data = [
   {
-    image:
-      "https://images.unsplash.com/photo-1503980850968-b7c3b4af0e05?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: lex,
     title: "AWS Lex & Python",
     category: "Python - Vue - AWS",
     link: "https://github.com/leonardosf98/lex_python",

@@ -17,7 +17,6 @@ import {
 import { useTranslation } from "react-i18next";
 import classes from "./CardsCarousel.module.css";
 import { Container } from "@mantine/core";
-import { t } from "i18next";
 
 interface CardProps {
   image: string;

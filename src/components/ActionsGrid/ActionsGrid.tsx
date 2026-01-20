@@ -15,6 +15,7 @@ import {
   IconBrandPython,
   IconBrandNextjs,
   IconBrandAws,
+  IconExternalLink,
 } from "@tabler/icons-react";
 
 import classes from "./ActionsGrid.module.css";
@@ -41,32 +42,26 @@ export function ActionsGrid() {
 
   const items = mockdata.map((item) => {
     const title = t(`skills.items.${item.id}`);
-    const content = (
-      <>
+    const isAws = item.id === "aws";
+
+    return (
+      <UnstyledButton
+        key={item.id}
+        component={isAws ? "a" : "button"}
+        href={isAws ? certificateUrl : undefined}
+        target={isAws ? "_blank" : undefined}
+        rel={isAws ? "noopener noreferrer" : undefined}
+        className={classes.item}
+      >
         <item.icon color={theme.colors[item.color][6]} size="2rem" />
+
         <Text size="xs" mt={7}>
           {title}
         </Text>
-      </>
-    );
 
-    if (item.id === "aws") {
-      return (
-        <a
-          key={item.id}
-          href={certificateUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.item}
-        >
-          {content}
-        </a>
-      );
-    }
-
-    return (
-      <UnstyledButton key={item.id} className={classes.item}>
-        {content}
+        {isAws && (
+          <IconExternalLink size={14} className={classes.externalIcon} />
+        )}
       </UnstyledButton>
     );
   });

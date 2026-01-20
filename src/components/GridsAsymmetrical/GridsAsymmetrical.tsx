@@ -1,10 +1,10 @@
 import { Container, Grid, rem, Title } from "@mantine/core";
 import { UserInfoAction } from "../UserInfoAction/UserInfoAction";
-import { t } from "i18next";
 import fcamaraImg from "./fcamara.png";
 import distritoImg from "./distrito.png";
 import intelipostImg from "./intelipost.png";
 import almapImg from "./almap.png";
+import { useTranslation } from "react-i18next";
 
 const data = [
   {
@@ -34,6 +34,8 @@ const data = [
 ];
 
 export function GridAsymmetrical() {
+  const { t } = useTranslation();
+
   return (
     <Container size="xl" mb={rem(36)}>
       <Title ta={"center"} order={2} fw={600} mb={"lg"}>

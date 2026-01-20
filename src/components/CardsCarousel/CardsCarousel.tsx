@@ -118,6 +118,7 @@ const data = [
 ];
 
 export function CardsCarousel() {
+  const { t } = useTranslation();
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const slides = data.map((item) => (

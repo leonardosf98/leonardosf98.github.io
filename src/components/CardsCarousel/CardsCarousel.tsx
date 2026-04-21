@@ -1,15 +1,14 @@
 import { Carousel } from "@mantine/carousel";
-import { useMediaQuery } from "@mantine/hooks";
 import wordle from "../../assets/wordle.png";
 import sudoku from "../../assets/sudoku.png";
 import lex from "../../assets/lex.gif";
+import agroraculum from "../../assets/agroraculum.png";
 
 import {
   Paper,
   Text,
   Title,
   Button,
-  useMantineTheme,
   rem,
   Group,
 } from "@mantine/core";
@@ -21,11 +20,12 @@ interface CardProps {
   image: string;
   title: string;
   category: string;
-  link: string;
-  repo: string;
+  imagePosition?: string;
+  link?: string;
+  repo?: string;
 }
 
-function Card({ image, title, category, link, repo }: CardProps) {
+function Card({ image, title, category, imagePosition, link, repo }: CardProps) {
   const { t } = useTranslation();
   return (
     <Paper
@@ -33,7 +33,10 @@ function Card({ image, title, category, link, repo }: CardProps) {
       shadow="md"
       p="xl"
       radius="md"
-      style={{ backgroundImage: `url(${image})` }}
+      style={{
+        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.55)), url(${image})`,
+        backgroundPosition: imagePosition ?? "center",
+      }}
       className={classes.card}
     >
       <div>
@@ -45,24 +48,28 @@ function Card({ image, title, category, link, repo }: CardProps) {
         </Title>
       </div>
       <Group>
-        <Button
-          component="a"
-          href={link}
-          target="_blank"
-          variant="white"
-          color="dark"
-        >
-          {t("projects.accessProject")}
-        </Button>
-        <Button
-          component="a"
-          href={repo}
-          target="_blank"
-          variant="white"
-          color="dark"
-        >
-          {t("projects.accessRepo")}
-        </Button>
+        {link && (
+          <Button
+            component="a"
+            href={link}
+            target="_blank"
+            variant="white"
+            color="dark"
+          >
+            {t("projects.accessProject")}
+          </Button>
+        )}
+        {repo && (
+          <Button
+            component="a"
+            href={repo}
+            target="_blank"
+            variant="white"
+            color="dark"
+          >
+            {t("projects.accessRepo")}
+          </Button>
+        )}
       </Group>
     </Paper>
   );
@@ -70,10 +77,16 @@ function Card({ image, title, category, link, repo }: CardProps) {
 
 const data = [
   {
+    image: agroraculum,
+    title: "AgrOraculum",
+    category: "Vue 3 - TypeScript - FastAPI - PostgreSQL",
+    imagePosition: "center top",
+    link: "https://agroraculum-frontend.vercel.app/login?redirect=/",
+  },
+  {
     image: lex,
     title: "AWS Lex & Python",
     category: "Python - Vue - AWS",
-    link: "https://github.com/leonardosf98/lex_python",
     repo: "https://github.com/leonardosf98/lex_python",
   },
   {
@@ -94,8 +107,6 @@ const data = [
 
 export function CardsCarousel() {
   const { t } = useTranslation();
-  const theme = useMantineTheme();
-  const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const slides = data.map((item) => (
     <Carousel.Slide key={item.title}>
       <Card {...item} />
@@ -111,7 +122,7 @@ export function CardsCarousel() {
         slideSize={{ base: "100%", sm: "50%" }}
         slideGap={{ base: rem(2), sm: "xl" }}
         align="start"
-        slidesToScroll={mobile ? 1 : 2}
+        slidesToScroll={1}
         loop
       >
         {slides}

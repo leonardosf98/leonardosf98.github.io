@@ -3,6 +3,7 @@ import wordle from "../../assets/wordle.png";
 import sudoku from "../../assets/sudoku.png";
 import lex from "../../assets/lex.gif";
 import agroraculum from "../../assets/agroraculum.png";
+import karaokeQueue from "../../assets/karaoke-queue.png";
 
 import {
   Paper,
@@ -76,6 +77,13 @@ function Card({ image, title, category, imagePosition, link, repo }: CardProps) 
 }
 
 const data = [
+  {
+    image: karaokeQueue,
+    title: "Karaoke Queue",
+    category: "React - Vite - Express - YouTube",
+    imagePosition: "center top",
+    link: "https://karaoke-queue-zeta.vercel.app/",
+  },
   {
     image: agroraculum,
     title: "AgrOraculum",

@@ -1,6 +1,6 @@
 import { Carousel } from "@mantine/carousel";
 import wordle from "../../assets/wordle.png";
-import sudoku from "../../assets/sudoku.png";
+import prRiskTier from "../../assets/pr-risk-tier.png";
 import lex from "../../assets/lex.gif";
 import agroraculum from "../../assets/agroraculum.png";
 import karaokeQueue from "../../assets/karaoke-queue.png";
@@ -87,9 +87,9 @@ const data = [
   {
     image: agroraculum,
     title: "AgrOraculum",
-    category: "Vue 3 - TypeScript - FastAPI - PostgreSQL",
+    category: "Vue 3 - Python - AWS - PostgreSQL",
     imagePosition: "center top",
-    link: "https://agroraculum-frontend.vercel.app/login?redirect=/",
+    link: "https://agroraculum.leonardosouza.dev/",
   },
   {
     image: lex,
@@ -105,11 +105,11 @@ const data = [
     repo: "https://github.com/leonardosf98/wordle",
   },
   {
-    image: sudoku,
-    title: "Sudoku",
-    category: "React",
-    link: "https://sudoku-leonardosf98.vercel.app/",
-    repo: "https://github.com/leonardosf98/sudoku",
+    image: prRiskTier,
+    title: "PR Risk Tier",
+    category: "Python - GitHub Actions - CI/CD",
+    imagePosition: "center",
+    repo: "https://github.com/leonardosf98/pr-risk-tier",
   },
 ];
 

@@ -87,8 +87,8 @@ const data = [
   {
     image: agroraculum,
     title: "AgrOraculum",
-    category: "Vue 3 - Python - AWS - PostgreSQL",
-    imagePosition: "center top",
+    category: "Vue 3 - FastAPI - NDVI/EVI - Mapas",
+    imagePosition: "center",
     link: "https://agroraculum.leonardosouza.dev/",
   },
   {

@@ -5,28 +5,28 @@
       "skills": "Habilidades",
       "projects": "Projetos"
     },
-    "siteTitle": "leosouzanutri.dev",
+    "siteTitle": "leonardosouza.dev",
     "language": "Idioma"
   },
   "hero": {
     "greeting": "Oi! Eu sou o Léo",
-    "andIam": "e sou",
-    "role": "desenvolvedor full stack",
-    "title": "Full Stack Developer",
-    "titleSpan": "Focado em backend",
-    "titleLastPart": " · Java, Node.js, Python e engenharia com IA",
-    "technologies": "(Java, Python, Node.js e engenharia com IA)",
-    "description": "Vamos trabalhar juntos? Conecta comigo no LinkedIn!",
+    "andIam": "e construo",
+    "role": "software seguro e agentes de IA",
+    "title": "Entregar rápido com IA",
+    "titleSpan": "sem quebrar produção,",
+    "titleLastPart": "do frontend ao backend",
+    "technologies": "para sistemas reais",
+    "description": "Desenvolvedor full stack, do frontend ao backend em produção. Uso agentes de IA para entregar mais rápido, sem abrir mão de qualidade e confiabilidade. Quer trabalhar junto? Me chama no LinkedIn!",
     "cta": {
-      "linkedin": "Linkedin",
+      "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "bulletOneTitle": "Base sólida em backend e cloud",
-    "bulletOneContent": "Experiência prática construindo e mantendo sistemas backend, desde aplicações legadas até soluções cloud-native modernas. Proficiência em Java, Node.js e Python, com sistemas distribuídos, cloud e observabilidade em produção (New Relic).",
-    "bulletTwoTitle": "Formação acadêmica e experiência internacional",
-    "bulletTwoContent": "Estudante de graduação em Sistemas para Internet (FATEC), com experiência como monitor de Lógica de Programação. Concluiu intercâmbio acadêmico pela FATEC no Instituto Politécnico de Bragança (Portugal), com disciplinas integralmente em inglês.",
-    "bulletThreeTitle": "Soluções práticas de IA com foco em negócios",
-    "bulletThreeContent": "Desenvolve soluções com IA e usa engenharia assistida por IA no dia a dia — integrações, automação e revisão de código com foco em qualidade e entrega. Experiência com Python e serviços de nuvem para otimizar processos e gerar impacto mensurável no negócio."
+    "bulletOneTitle": "Software seguro, do frontend ao backend",
+    "bulletOneContent": "Construo e mantenho sistemas em produção, de aplicações legadas a soluções cloud-native: frontend em Vue, React e Next.js, backend em Java, Node.js e Python, com cloud (AWS e GCP) e observabilidade com New Relic.",
+    "bulletTwoTitle": "Criação de agentes e programação com agentes",
+    "bulletTwoContent": "Crio agentes para programação, gestão de boards no Jira e automação de fluxos, além de skills que padronizam como eles trabalham. Programo com agentes no dia a dia usando Cursor, Claude Code e GitHub Copilot — na Intelipost, eles fazem parte do nosso fluxo de desenvolvimento, da especificação ao pull request.",
+    "bulletThreeTitle": "Formação acadêmica e experiência internacional",
+    "bulletThreeContent": "Graduando em Sistemas para Internet (FATEC), fui monitor de Lógica de Programação e concluí um intercâmbio acadêmico pela FATEC no Instituto Politécnico de Bragança (Portugal), com aulas integralmente em inglês."
   },
   "skills": {
     "title": "Habilidades",
@@ -41,7 +41,7 @@
       "node": "Node.js (Nest.js)",
       "python": "Python (FastAPI)",
       "typescript": "TypeScript",
-      "ai": "Engenharia com IA",
+      "ai": "Agentes de IA",
       "observability": "Observabilidade (New Relic)"
     }
   },

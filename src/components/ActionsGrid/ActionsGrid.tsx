@@ -16,10 +16,16 @@ import {
   IconBrandNextjs,
   IconBrandAws,
   IconExternalLink,
+  IconBrain,
 } from "@tabler/icons-react";
 
 import classes from "./ActionsGrid.module.css";
-import { SiGooglecloud, SiSpringboot } from "react-icons/si";
+import {
+  SiGooglecloud,
+  SiNewrelic,
+  SiSpringboot,
+  SiTypescript,
+} from "react-icons/si";
 
 const mockdata = [
   { id: "vue", icon: IconBrandVue, color: "indigo" },
@@ -31,6 +37,9 @@ const mockdata = [
   { id: "java", icon: SiSpringboot, color: "green" },
   { id: "node", icon: IconBrandNodejs, color: "orange" },
   { id: "python", icon: IconBrandPython, color: "indigo" },
+  { id: "typescript", icon: SiTypescript, color: "blue" },
+  { id: "ai", icon: IconBrain, color: "grape" },
+  { id: "observability", icon: SiNewrelic, color: "teal" },
 ];
 
 export function ActionsGrid() {
@@ -71,7 +80,7 @@ export function ActionsGrid() {
       <Group justify="space-between">
         <Text className={classes.title}>{t("skills.title")}</Text>
       </Group>
-      <SimpleGrid cols={3} mt="md">
+      <SimpleGrid cols={{ base: 2, xs: 3, sm: 4 }} mt="md">
         {items}
       </SimpleGrid>
     </Card>

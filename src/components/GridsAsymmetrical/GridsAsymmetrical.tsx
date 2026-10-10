@@ -22,7 +22,7 @@ const data = [
   {
     image: intelipostImg,
     companyName: "Intelipost",
-    stacks: "Vue, Jenkins, AWS, Java",
+    stacks: "Java, Vue, AWS, New Relic, Jenkins",
     companyLinkedin: "https://www.linkedin.com/company/intelipost/",
   },
   {

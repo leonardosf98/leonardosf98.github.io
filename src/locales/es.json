@@ -14,19 +14,19 @@
     "role": "desarrollador full stack",
     "title": "Full Stack Developer",
     "titleSpan": "Orientado a backend",
-    "titleLastPart": " (Java, Node.js, Python)",
-    "technologies": "(Java, Python, Node.js)",
+    "titleLastPart": " · Java, Node.js, Python e ingeniería con IA",
+    "technologies": "(Java, Python, Node.js e ingeniería con IA)",
     "description": "¿Trabajamos juntos? ¡Conéctate conmigo en LinkedIn!",
     "cta": {
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
     "bulletOneTitle": "Sólida base en backend y cloud",
-    "bulletOneContent": "Experiencia práctica construyendo y manteniendo sistemas backend, desde aplicaciones legadas hasta soluciones cloud-native modernas. Competente en Java, Node.js y Python, con experiencia en sistemas distribuidos y entornos en la nube.",
+    "bulletOneContent": "Experiencia práctica construyendo y manteniendo sistemas backend, desde aplicaciones legadas hasta soluciones cloud-native modernas. Competente en Java, Node.js y Python, con sistemas distribuidos, cloud y observabilidad en producción (New Relic).",
     "bulletTwoTitle": "Formación académica y experiencia internacional",
-    "bulletTwoContent": "Estudiante de grado en Sistemas para Internet (FATEC), con experiencia como asistente de enseñanza de Lógica de Programación. Actualmente de intercambio por FATEC en el Instituto Politécnico de Bragança (Portugal), cursando asignaturas en inglés.",
+    "bulletTwoContent": "Estudiante de grado en Sistemas para Internet (FATEC), con experiencia como asistente de enseñanza de Lógica de Programación. Concluyó intercambio académico por FATEC en el Instituto Politécnico de Bragança (Portugal), con asignaturas íntegramente en inglés.",
     "bulletThreeTitle": "Soluciones prácticas de IA orientadas al negocio",
-    "bulletThreeContent": "Desarrolló soluciones con IA usando Python y servicios en la nube para optimizar procesos y mejorar la toma de decisiones. Enfocado en entregar sistemas end-to-end que generan impacto comercial medible."
+    "bulletThreeContent": "Desarrolla soluciones con IA y usa ingeniería asistida por IA a diario — integraciones, automatización y revisión de código con foco en calidad y entrega. Experiencia con Python y servicios en la nube para optimizar procesos y generar impacto comercial medible."
   },
   "skills": {
     "title": "Habilidades",
@@ -39,7 +39,10 @@
       "english": "Inglés",
       "java": "Java y Spring",
       "node": "Node.js (Nest.js)",
-      "python": "Python (FastAPI)"
+      "python": "Python (FastAPI)",
+      "typescript": "TypeScript",
+      "ai": "Ingeniería con IA",
+      "observability": "Observabilidad (New Relic)"
     }
   },
   "projects": {

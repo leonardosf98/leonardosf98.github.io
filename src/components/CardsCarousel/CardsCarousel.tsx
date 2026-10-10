@@ -4,6 +4,7 @@ import prRiskTier from "../../assets/pr-risk-tier.png";
 import lex from "../../assets/lex.gif";
 import agroraculum from "../../assets/agroraculum.png";
 import karaokeQueue from "../../assets/karaoke-queue.png";
+import marigilLandingPage from "../../assets/marigil-landing-page.png";
 
 import {
   Paper,
@@ -77,6 +78,14 @@ function Card({ image, title, category, imagePosition, link, repo }: CardProps) 
 }
 
 const data = [
+  {
+    image: marigilLandingPage,
+    title: "Mari Gil — Landing Page",
+    category: "Nuxt 4 - Vue 3 - Tailwind - TikTok Shop UGC",
+    imagePosition: "center top",
+    link: "https://marigil-landing-page.vercel.app/",
+    repo: "https://github.com/leonardosf98/marigil-landing-page",
+  },
   {
     image: karaokeQueue,
     title: "Karaoke Queue",
